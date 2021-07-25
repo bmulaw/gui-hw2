@@ -1,0 +1,119 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	justify-content:stretch;
+}
+
+body {
+	/* gradient found in internet, and display is set to grid for orginization */
+	color: black;
+	font-family: Georgia, "Times New Roman", serif;
+	/* cite sources: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients */
+	background: linear-gradient(white, 25%, #00569f);
+	display: grid;
+	margin-top: 0px;
+}
+
+#wrapper {
+	/* wrapper is grid to keep page glued together */
+	display: grid;
+	background-color: white;
+}
+
+#content {
+	/* content is set to white background and make up 80% of main page */
+	background-color: white;
+	color: black;
+	/* cite source https://www.w3schools.com/css/css_padding.asp */
+	width: 80%;
+	min-width: 600px;
+	/* font size chosen because I think it matches, and margined to look centered */
+	font-size: 21px;
+	padding-left: 100px;
+}
+
+#content li {
+	/* cite sources: https://techforluddites.com/replacing-list-bullets-with-images-using-css/ */
+	list-style-image: url('marker.gif');
+}
+
+
+img {
+	/* moving the image to the left hand side of page */
+	float: left;
+	padding-right: 20px;
+}
+
+a {
+	/* making the links bolded and blue and without underline in nav bar */
+	text-decoration: none;
+	color: darkblue;
+	font-weight: bold;
+}
+
+nav {
+	/* nav bar color set to light blue and making up 20% of main page - will have reasonable height */
+	background-color: lightblue;
+	width: 20%;
+	height: 600px;
+}
+
+nav ul {
+	/* lists will be reasonable size and have moved to the right, and bulletpoints removed */
+	font-size: 1.25em;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+nav a:hover {
+	/* given code */
+	color: #FFFFFF;
+}
+
+h1 {
+	/* main header is set with thin margins to keep it aligned and padded for aesthetic */
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	color: white;
+	/* cite source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero */
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	/* h2s are colored blue */
+	color: #3399CC;
+}
+
+h1,h2 {
+	/* given code */
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	/* given code */
+	font-size: 90%;
+}
+
+dt {
+	/* given code */
+	color: #000033;
+}
+
+.resort {
+	/* resort words are set to color I think matches and bolded */
+	color: rgb(84, 132, 160);
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+footer {
+	/* footer is similar font to others but is italic */
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	color: black;
+}
+
+
+
